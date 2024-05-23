@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const studentController = require('../controllers/studentController');
 
 const app = express();
-const port = 3000;
+const port = 3306;
 
 app.use(bodyParser.json());
 
